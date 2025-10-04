@@ -14,7 +14,7 @@ COPY ./requirements.txt /code/requirements.txt
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 # 複製專案程式碼到工作目錄
-COPY ./src/main.py /code/main.py
+COPY ./main.py /code/main.py
 
 
 # 設定啟動容器時要執行的指令
